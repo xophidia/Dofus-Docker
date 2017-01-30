@@ -1,0 +1,8 @@
+#!/bin/bash
+
+/usr/sbin/mysqld &
+mysql -e "GRANT ALL ON *.* TO root@'%' IDENTIFIED BY '' WITH GRANT OPTION"
+mysql -e "CREATE DATABASE dofus;"
+mysql dofus < /home/Symbioz/symbioz.sql
+
+#mysql -e "insert into accounts values (2,"dofus","dofus","dofus",5,False,5,20,1,null);"
