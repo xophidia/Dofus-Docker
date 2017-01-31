@@ -4,18 +4,12 @@ Symbioz est un émulateur dofus 2.30 écrit par Skinz3 [https://github.com/Skinz
 
 ###Installation###
 
-```
-docker build -t dofusDocker:0.1 .
-```
+Dans le repertoire ou est présent le fichier Dockerfile, tapez :
 
-Installation :
- 
- - mono-complete
- - mysql-server
- - Symbioz
- - git, unzip
-
-Pour lancer l'émulateur :
+```
+docker build .
+```
+Une fois l'installation finie, il ne vous reste qu'à lancer l'émulateur.
 
 ```
 mono /home/Symbioz/Symbioz/bin/Debug/Symbioz.exe
