@@ -75,12 +75,25 @@ Le fichier dofus_ID contient les id des items présent sur le jeu.
 
 ### [TODO] ###
 
- - L'emulateur ne fonctionne pas "encore" car son code source doit être modifié pour prendre en compte l'arborescence de linux et eviter ce type d'erreur : (update dès que je trouve un windows !)
+ - L'emulateur ne fonctionne pas "encore" car son code source doit être modifié ~~pour prendre en compte l'arborescence de linux et eviter ce type d'erreur : (update dès que je trouve un windows !)~~
 
 ```
 "/home/Symbioz/Symbioz/bin/Debug\lang.d2i"
 ```
 
+Edit du 31/1 : Modification du fichier LangManager.cs
+
+```
+ public static void Intialize()
+        {
+            D2IFile = new D2IFile();
+            // D2IFile.Open(Environment.CurrentDirectory + "\\lang.d2i");
+            D2IFile.Open(Environment.CurrentDirectory + "/lang.d2i");
+        }
+``` 
+
+ - Modification du nom des tables de la bdd 
+	
  - Ajout des commandes permettant de lancer le docker avec une IP externe et lancement de l'emulateur.
 
 ###Avertissement ###
