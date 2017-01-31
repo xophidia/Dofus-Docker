@@ -18,8 +18,8 @@ RUN apt-get update && \
 
 RUN cd $HOME && \
     apt-get -y install git && \
-    git clone https://github.com/Skinz3/Symbioz.git && \
-    cd Symbioz && unzip SQL.zip
+    git clone https://github.com/xophidia/Symbioz-for-Linux-Docker.git && \
+    cd Symbioz-for-Linux-Docker/ && unzip SQL.zip
 
 
 # Setup Mysql
