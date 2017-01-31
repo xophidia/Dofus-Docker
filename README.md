@@ -97,7 +97,7 @@ Edit du 31/1 : Modification du fichier LangManager.cs
 
 Serveur : ok
 
-![](Assets/Symbioz_end.png)
+<img src="Assets/Symbioz_end.png" width="400px"></img>
 
 Il ne reste qu'à connecter le client sur la bonne adresse IP et profitez du jeu.
 
