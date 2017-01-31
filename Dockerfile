@@ -28,7 +28,7 @@ RUN apt-get update \
 && DEBIAN_FRONTEND=noninteractive apt-get install -y mysql-server
 
 ADD bdd /tmp/
+ADD SQL_patch.sql /tmp/
 RUN chmod +x /tmp/bdd
 RUN /tmp/bdd
 
-ENV force_color_prompt yes

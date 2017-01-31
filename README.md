@@ -68,6 +68,9 @@ Le fichier config.xml dans le même repertoire contient des éléments à modifi
 ### Utilisation ####
 
 Se référer au lien du créateur de l'emulateur pour obtenir le client dofus permettant la connexion au docker.
+
+Le docker automatise l'installation et le lancement du moteur.
+
 Le fichier dofus_ID contient les id des items présent sur le jeu.
 
 
@@ -75,7 +78,7 @@ Le fichier dofus_ID contient les id des items présent sur le jeu.
 
 ### [TODO] ###
 
- - L'emulateur ne fonctionne pas "encore" car son code source doit être modifié ~~pour prendre en compte l'arborescence de linux et eviter ce type d'erreur : (update dès que je trouve un windows !)~~
+ - ~~L'emulateur ne fonctionne pas "encore" car son code source doit être modifié pour prendre en compte l'arborescence de linux et eviter ce type d'erreur : (update dès que je trouve un windows !)~~
 
 ```
 "/home/Symbioz/Symbioz/bin/Debug\lang.d2i"
@@ -92,9 +95,17 @@ Edit du 31/1 : Modification du fichier LangManager.cs
         }
 ``` 
 
- - Modification du nom des tables de la bdd 
+ - ~~Modification du nom des tables de la bdd~~
 	
  - Ajout des commandes permettant de lancer le docker avec une IP externe et lancement de l'emulateur.
+
+#### Fonctionnement ####
+
+Serveur : ok
+
+![](Assets/Symbioz_end.png)
+
+Il ne reste qu'à connecter le client sur la bonne adresse IP et profitez du jeu.
 
 ###Avertissement ###
 
