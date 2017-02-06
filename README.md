@@ -4,7 +4,7 @@ Symbioz est un émulateur dofus 2.30 écrit par Skinz3 [https://github.com/Skinz
 
 ###Installation###
 
-Clonez le dépot dans le repertoire de votre choix puis tapez :
+Clonez le dépôt dans le répertoire de votre choix puis tapez :
 
 ```
 docker build .
@@ -14,7 +14,7 @@ Une fois l'installation finie, pour vérifier le bon fonctionnement
 Se connecter au docker 
 
 ```
-docker run --rm -it ID
+docker run --rm -it Id
 Id obtenu après avoir saisi docker images -a
 ```
 puis 
@@ -23,7 +23,7 @@ puis
 mono /home/Symbioz/Symbioz/bin/Debug/Symbioz.exe
 ```
 
-La base de donnée est automatiquement crée. Le compte test/test est crée par défaut mais si vous souhaitez en rajouter un :
+La base de donnée est automatiquement créée. Le compte test/test est crée par défaut mais si vous souhaitez en rajouter un :
 
 ```
 mysql -e "insert into accounts values (2,"dofus","dofus","dofus",5,False,5,20,1,null);"
@@ -38,7 +38,8 @@ insert into accounts values (2,"dofus","dofus","dofus",5,False,5,20,1,null);
 
 
 ###Configuration ###
-Le fichier config.xml présent dans le repertoire contenant symbioz.exe contient des éléments à modifier.
+
+Le fichier config.xml présent dans le répertoire contenant symbioz.exe contient des éléments à modifier.
 
 ```xml
 <Configuration>
@@ -99,7 +100,7 @@ Edit du 31/1 : Modification du fichier LangManager.cs
 
  - ~~Modification du nom des tables de la bdd~~
 	
- - Ajout des commandes permettant de lancer le docker avec une IP externe et lancement de l'emulateur.
+ - Ajout des commandes permettant de lancer le docker avec une IP externe et lancement de l'émulateur.
 
 #### Fonctionnement ####
 
