@@ -16,6 +16,8 @@ Se connecter au docker
 ```
 docker run --rm -it Id
 Id obtenu après avoir saisi docker images -a
+exemple : docker run --rm -it d4676e2296be
+root@5f8c3370cd5b:/#
 ```
 puis 
 
@@ -121,5 +123,6 @@ ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run
 ```
 connectez vous sur le docker et tapez
 service mysql stop
+service mysql start
 puis relancez le script
 ```
