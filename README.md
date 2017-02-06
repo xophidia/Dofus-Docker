@@ -29,6 +29,7 @@ La base de donnée est automatiquement créée. Le compte test/test est crée pa
 
 ```
 mysql -e "insert into accounts values (2,"dofus","dofus","dofus",5,False,5,20,1,null);"
+avec dans l'ordre nickname, login, password => dofus dofus dofus
 ```
 ou
 
@@ -125,4 +126,5 @@ connectez vous sur le docker et tapez
 service mysql stop
 service mysql start
 puis relancez le script
+/tmp/bdd
 ```
