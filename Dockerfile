@@ -10,8 +10,7 @@ ENV MYSQL_USER=mysql \
 # Setup Ubuntu
 
 RUN apt-get update && \
-    apt-get install -y mono-complete unzip && \
-    apt-get autoclean && apt-get --purge -y autoremove 
+    apt-get install -y mono-complete unzip 
 
 
 # Setup Symbioz emulateur c# Dofus 2.30
