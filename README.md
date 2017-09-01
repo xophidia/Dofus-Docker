@@ -1,8 +1,8 @@
-##Docker linux pour Symbioz##
+## Docker linux pour Symbioz ##
 
 Symbioz est un émulateur dofus 2.30 écrit par Skinz3 [https://github.com/Skinz3/Symbioz](https://github.com/Skinz3/Symbioz) en C#.
 
-###Installation###
+### Installation ###
 
 Clonez le dépôt dans le répertoire de votre choix puis tapez :
 
